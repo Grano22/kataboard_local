@@ -1,0 +1,21 @@
+{
+    "name": "kataboard/php-runner",
+    "description": "Kataboard local runner laboratory",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "beberlei/assert": "^3.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kataboard\\PhpRunner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrian Błasiak",
+            "email": "grano22@outlook.com"
+        }
+    ]
+}
